@@ -1,0 +1,20 @@
+# Ignore Kafka Connect offset topics and temp files
+*.log
+*.tmp
+*.lock
+*.pid
+
+# Ignore Docker volumes
+volumes/
+
+# Ignore PostgreSQL data (if you mount anything)
+pgdata/
+pg_logs/
+
+# Ignore plugin jars if needed
+plugins/*.jar
+
+# OS/Editor files
+.DS_Store
+.idea/
+.vscode/
